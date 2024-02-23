@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identitas Mahasiswa</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: left;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        li::before {
+            content: "\2022";
+            color: #007bff;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Identitas Mahasiswa</h1>
+        <img src="fotoku.jpg" alt="Foto Mahasiswa">
+        <ul>
+            <li><strong>Nama    :</strong> Kamsa</li>
+            <li><strong>NIM     :</strong> 123456789</li>
+            <li><strong>Jurusan :</strong> Teknik Informatika</li>
+            <li><strong>Semester:</strong> 5</li>
+        </ul>
+    </div>
+</body>
+</html>
